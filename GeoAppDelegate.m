@@ -8,6 +8,10 @@
 #import "SphericalPoint.h"
 #import "GeoAppDelegate.h"
 #include "/usr/local/include/fap.h"
+#import "JSONKit.h"
+
+NSString*reconnectContext=@"should reconnect context";
+NSString*updatePositionContext=@"should update position context";
 
 @implementation GeoAppDelegate
 
@@ -16,22 +20,75 @@
 @synthesize window;
 @synthesize port=_port;
 @synthesize server=_server;
+@synthesize decoder=_decoder;
+@synthesize selfPoint=_selfPoint;
+@synthesize targetPoints=_targetPoints;
+@synthesize nameOfBase=_nameOfBase;
+
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	self.server=@"localhost";
-	[self addObserver:self forKeyPath:@"port" options:NSKeyValueObservingOptionNew context:NULL];
-	self.port=[NSNumber numberWithInt:54730];
+	self.decoder=[JSONDecoder decoder];
+	self.nameOfBase=@"D710";
+	self.targetPoints=[NSMutableDictionary dictionaryWithCapacity:3];
 	tcp=[[TCP alloc] init];
 	tcp.delegate=self;
+	self.server=@"localhost";
+	[self addObserver:self forKeyPath:@"port"   options:NSKeyValueObservingOptionNew context:reconnectContext];
+	[self addObserver:self forKeyPath:@"server" options:NSKeyValueObservingOptionNew context:reconnectContext];
+	[self addObserver:self forKeyPath:@"selfPoint"    options:NSKeyValueObservingOptionNew context:updatePositionContext];
+	[self addObserver:self forKeyPath:@"targetPoints" options:NSKeyValueObservingOptionNew context:updatePositionContext];
+	self.port=[NSNumber numberWithInt:54730];
 }
 
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context{
-	[tcp connectToServer:self.server onPort:self.port.intValue];
-	NSLog(@"the new port is: %@",self.port);
+	if (context==reconnectContext) {
+		[tcp connectToServer:self.server onPort:self.port.intValue];
+		NSLog(@"the new port is: %@",self.port);		
+	}else if(context==updatePositionContext)
+		if (self.selfPoint&&self.targetPoints.count>0){
+			NSMutableDictionary *send=[NSMutableDictionary dictionaryWithCapacity:self.targetPoints.count];
+			[self.targetPoints enumerateKeysAndObjectsUsingBlock:^(id key, id targetPoint, BOOL *stop) {
+				[self.selfPoint findTarget:targetPoint];
+				double distto, angto, heading;
+				distto=self.selfPoint.distanceBetweenSelfAndTarget;
+				angto=self.selfPoint.angleFromLevelToTarget*180/M_PI;
+				heading=self.selfPoint.headingFromSelfToTarget*180/M_PI;
+				[send setObject:[NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithDouble:distto],@"Distance",
+																		   [NSNumber numberWithDouble:angto], @"AltitudeAngle",
+																		   [NSNumber numberWithDouble:heading], @"Azimuth",nil] forKey:key];
+			}];
+			[tcp send:[send JSONData]];
+			NSLog(@"sending: %@",send);
+		}
 }
 
+SphericalPoint *pointForPacket(id packet);
+SphericalPoint *pointForPacket(id packet){
+	@try {
+		return [[[SphericalPoint alloc] initWithPhi:[[packet objectForKey:@"latitude"] doubleValue] theta:[[packet objectForKey:@"longitude"] doubleValue] rho:[[packet objectForKey:@"altitude"] doubleValue]] autorelease];
+	}
+	@catch (NSException *exception) {
+		NSLog(@"Missing Lat/lon/alt");
+		return nil;
+	}
+}
+
+
 -(void)receivedMessage:(NSData *)message socket:(CFSocketRef)socket{
-	NSLog(@"recieved message: %s", message.bytes);
+	[[self.decoder objectWithData:message] enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
+		SphericalPoint *pnt;
+		if ((pnt=pointForPacket(obj))) {
+			if([self.nameOfBase isEqual:key]){
+				self.selfPoint=pnt;
+			}else{
+				[self.targetPoints setObject:pnt forKey:key];
+			}
+		}
+		NSLog(@"%@: alt: %@ lat: %@ lon: %@",key, [obj objectForKey:@"altitude"], [obj objectForKey:@"latitude"], [obj objectForKey:@"longitude"]);
+	}];
+}
+-(void)connected{
+	NSLog(@"yay");
 }
 
 @end

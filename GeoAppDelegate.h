@@ -18,16 +18,27 @@ typedef struct{
 	double altitude;
 }GEOData;
 
+@class JSONDecoder;
+
 @interface GeoAppDelegate : NSObject <NSApplicationDelegate, TCPListener> {
     NSWindow *window;
 	NSNumber *_port;
 	NSString *_server;
+	JSONDecoder * _decoder;
 	TCP *tcp;
+	NSString *_nameOfBase;
+	SphericalPoint * _selfPoint;
+	NSMutableDictionary * _targetPoints;
 }
 
 
 @property (assign) IBOutlet NSWindow *window;
 @property (retain) NSNumber *port;
 @property (retain) NSString *server;
+@property (retain) JSONDecoder * decoder;
+@property (retain) SphericalPoint * selfPoint;
+@property (retain) NSMutableDictionary * targetPoints;
+@property (retain) NSString *nameOfBase;
+
 
 @end
