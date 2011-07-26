@@ -13,6 +13,7 @@
 		364597F413229816003BD84D /* SphericalPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 364597F313229816003BD84D /* SphericalPoint.m */; };
 		364FF0D7139D4734005B3784 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364FF0D6139D4734005B3784 /* Python.framework */; };
 		3657D2CA13DEFBE700BF5927 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 3657D2C913DEFBE700BF5927 /* README */; };
+		36C059ED13DF10B1001949DF /* TCP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C059EC13DF10B1001949DF /* TCP.framework */; };
 		36DC97811322ABA0006ECE35 /* GeoMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DC97801322ABA0006ECE35 /* GeoMath.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -35,6 +36,7 @@
 		364597F313229816003BD84D /* SphericalPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphericalPoint.m; sourceTree = "<group>"; };
 		364FF0D6139D4734005B3784 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
 		3657D2C913DEFBE700BF5927 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		36C059EC13DF10B1001949DF /* TCP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TCP.framework; path = "../../../Library/Developer/Xcode/DerivedData/TCP-bcleghinkpmcxfbivgyjzxpnaouj/Build/Products/Debug/TCP.framework"; sourceTree = "<group>"; };
 		36DC977F1322ABA0006ECE35 /* GeoMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoMath.h; sourceTree = "<group>"; };
 		36DC97801322ABA0006ECE35 /* GeoMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoMath.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Geo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Geo-Info.plist"; sourceTree = "<group>"; };
@@ -46,9 +48,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				364FF0D7139D4734005B3784 /* Python.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				363FE3F413A27CA2009D461A /* libfap.5.0.0.dylib in Frameworks */,
+				36C059ED13DF10B1001949DF /* TCP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +79,7 @@
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				36C059EC13DF10B1001949DF /* TCP.framework */,
 				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
 				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
@@ -245,6 +249,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/TCP-fsziqsxxqaizssebnuxonecvddvc/Build/Products/Debug\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/TCP-bcleghinkpmcxfbivgyjzxpnaouj/Build/Products/Debug\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -261,6 +270,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/TCP-fsziqsxxqaizssebnuxonecvddvc/Build/Products/Debug\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/TCP-bcleghinkpmcxfbivgyjzxpnaouj/Build/Products/Debug\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Geo_Prefix.pch;

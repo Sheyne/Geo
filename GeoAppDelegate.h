@@ -8,6 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
+#import <TCP/TCP.h>
+
+
 typedef struct{
 	time_t time;
 	double latitude;
@@ -15,13 +18,16 @@ typedef struct{
 	double altitude;
 }GEOData;
 
-@interface GeoAppDelegate : NSObject <NSApplicationDelegate> {
+@interface GeoAppDelegate : NSObject <NSApplicationDelegate, TCPListener> {
     NSWindow *window;
 	NSNumber *_port;
+	NSString *_server;
+	TCP *tcp;
 }
 
 
 @property (assign) IBOutlet NSWindow *window;
 @property (retain) NSNumber *port;
+@property (retain) NSString *server;
 
 @end
