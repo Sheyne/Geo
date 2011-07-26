@@ -9,22 +9,10 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* GeoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* GeoAppDelegate.m */; };
-		36170F0613317D4E00E1FADB /* ReceiverThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 36170F0513317D4E00E1FADB /* ReceiverThread.m */; };
-		362F152E132308C9005144CE /* ShowAngle.m in Sources */ = {isa = PBXBuildFile; fileRef = 362F152D132308C9005144CE /* ShowAngle.m */; };
-		362F155613230F2A005144CE /* ShowHeading.m in Sources */ = {isa = PBXBuildFile; fileRef = 362F155513230F2A005144CE /* ShowHeading.m */; };
-		363DCBCA13A12D840039487F /* TSCoords.m in Sources */ = {isa = PBXBuildFile; fileRef = 363DCBC813A12D840039487F /* TSCoords.m */; };
-		363DCBCB13A12D840039487F /* lx200.py in Resources */ = {isa = PBXBuildFile; fileRef = 363DCBC913A12D840039487F /* lx200.py */; };
 		363FE3F413A27CA2009D461A /* libfap.5.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 363FE3C913A27BBE009D461A /* libfap.5.0.0.dylib */; };
-		3641642613343B8F002C541B /* FileChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641642513343B8F002C541B /* FileChooser.m */; };
 		364597F413229816003BD84D /* SphericalPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 364597F313229816003BD84D /* SphericalPoint.m */; };
-		364FF0CD139D471A005B3784 /* TelescopeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364FF0CC139D471A005B3784 /* TelescopeController.m */; };
 		364FF0D7139D4734005B3784 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364FF0D6139D4734005B3784 /* Python.framework */; };
 		3657D2CA13DEFBE700BF5927 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 3657D2C913DEFBE700BF5927 /* README */; };
-		366EC3B5133313970016BB1B /* UKFileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 366EC3AD133313970016BB1B /* UKFileWatcher.m */; };
-		366EC3B6133313970016BB1B /* UKFNSubscribeFileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 366EC3AF133313970016BB1B /* UKFNSubscribeFileWatcher.m */; };
-		366EC3B7133313970016BB1B /* UKKQueue Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 366EC3B0133313970016BB1B /* UKKQueue Readme.txt */; };
-		366EC3B8133313970016BB1B /* UKKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 366EC3B2133313970016BB1B /* UKKQueue.m */; };
-		366EC3B9133313970016BB1B /* UKMainThreadProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 366EC3B4133313970016BB1B /* UKMainThreadProxy.m */; };
 		36DC97811322ABA0006ECE35 /* GeoMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DC97801322ABA0006ECE35 /* GeoMath.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -42,33 +30,11 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		36170F0413317D4E00E1FADB /* ReceiverThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiverThread.h; sourceTree = "<group>"; };
-		36170F0513317D4E00E1FADB /* ReceiverThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiverThread.m; sourceTree = "<group>"; };
-		362F152C132308C9005144CE /* ShowAngle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAngle.h; sourceTree = "<group>"; };
-		362F152D132308C9005144CE /* ShowAngle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAngle.m; sourceTree = "<group>"; };
-		362F155413230F2A005144CE /* ShowHeading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowHeading.h; sourceTree = "<group>"; };
-		362F155513230F2A005144CE /* ShowHeading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowHeading.m; sourceTree = "<group>"; };
-		363DCBC713A12D840039487F /* TSCoords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCoords.h; sourceTree = "<group>"; };
-		363DCBC813A12D840039487F /* TSCoords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSCoords.m; sourceTree = "<group>"; };
-		363DCBC913A12D840039487F /* lx200.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = lx200.py; sourceTree = "<group>"; };
 		363FE3C913A27BBE009D461A /* libfap.5.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfap.5.0.0.dylib; path = usr/local/lib/libfap.5.0.0.dylib; sourceTree = SDKROOT; };
-		3641642413343B8F002C541B /* FileChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileChooser.h; sourceTree = "<group>"; };
-		3641642513343B8F002C541B /* FileChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileChooser.m; sourceTree = "<group>"; };
 		364597F213229816003BD84D /* SphericalPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphericalPoint.h; sourceTree = "<group>"; };
 		364597F313229816003BD84D /* SphericalPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphericalPoint.m; sourceTree = "<group>"; };
-		364FF0CB139D471A005B3784 /* TelescopeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelescopeController.h; sourceTree = "<group>"; };
-		364FF0CC139D471A005B3784 /* TelescopeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelescopeController.m; sourceTree = "<group>"; };
 		364FF0D6139D4734005B3784 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
 		3657D2C913DEFBE700BF5927 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		366EC3AC133313970016BB1B /* UKFileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKFileWatcher.h; sourceTree = "<group>"; };
-		366EC3AD133313970016BB1B /* UKFileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKFileWatcher.m; sourceTree = "<group>"; };
-		366EC3AE133313970016BB1B /* UKFNSubscribeFileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKFNSubscribeFileWatcher.h; sourceTree = "<group>"; };
-		366EC3AF133313970016BB1B /* UKFNSubscribeFileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKFNSubscribeFileWatcher.m; sourceTree = "<group>"; };
-		366EC3B0133313970016BB1B /* UKKQueue Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UKKQueue Readme.txt"; sourceTree = "<group>"; };
-		366EC3B1133313970016BB1B /* UKKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKKQueue.h; sourceTree = "<group>"; };
-		366EC3B2133313970016BB1B /* UKKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKKQueue.m; sourceTree = "<group>"; };
-		366EC3B3133313970016BB1B /* UKMainThreadProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKMainThreadProxy.h; sourceTree = "<group>"; };
-		366EC3B4133313970016BB1B /* UKMainThreadProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKMainThreadProxy.m; sourceTree = "<group>"; };
 		36DC977F1322ABA0006ECE35 /* GeoMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoMath.h; sourceTree = "<group>"; };
 		36DC97801322ABA0006ECE35 /* GeoMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoMath.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Geo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Geo-Info.plist"; sourceTree = "<group>"; };
@@ -92,10 +58,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				364FF0CA139D46F9005B3784 /* TelescopeControl */,
-				3641642913343BC7002C541B /* Math Display */,
 				3641642813343BB7002C541B /* Math */,
-				3641642713343B95002C541B /* Input Sources */,
 				256AC3D80F4B6AC300CF3369 /* GeoAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* GeoAppDelegate.m */,
 			);
@@ -171,18 +134,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3641642713343B95002C541B /* Input Sources */ = {
-			isa = PBXGroup;
-			children = (
-				366EC3AB133313970016BB1B /* UKKQueue */,
-				36170F0413317D4E00E1FADB /* ReceiverThread.h */,
-				36170F0513317D4E00E1FADB /* ReceiverThread.m */,
-				3641642413343B8F002C541B /* FileChooser.h */,
-				3641642513343B8F002C541B /* FileChooser.m */,
-			);
-			name = "Input Sources";
-			sourceTree = "<group>";
-		};
 		3641642813343BB7002C541B /* Math */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,45 +143,6 @@
 				36DC97801322ABA0006ECE35 /* GeoMath.m */,
 			);
 			name = Math;
-			sourceTree = "<group>";
-		};
-		3641642913343BC7002C541B /* Math Display */ = {
-			isa = PBXGroup;
-			children = (
-				362F152C132308C9005144CE /* ShowAngle.h */,
-				362F152D132308C9005144CE /* ShowAngle.m */,
-				362F155413230F2A005144CE /* ShowHeading.h */,
-				362F155513230F2A005144CE /* ShowHeading.m */,
-			);
-			name = "Math Display";
-			sourceTree = "<group>";
-		};
-		364FF0CA139D46F9005B3784 /* TelescopeControl */ = {
-			isa = PBXGroup;
-			children = (
-				363DCBC713A12D840039487F /* TSCoords.h */,
-				363DCBC813A12D840039487F /* TSCoords.m */,
-				363DCBC913A12D840039487F /* lx200.py */,
-				364FF0CB139D471A005B3784 /* TelescopeController.h */,
-				364FF0CC139D471A005B3784 /* TelescopeController.m */,
-			);
-			name = TelescopeControl;
-			sourceTree = "<group>";
-		};
-		366EC3AB133313970016BB1B /* UKKQueue */ = {
-			isa = PBXGroup;
-			children = (
-				366EC3AC133313970016BB1B /* UKFileWatcher.h */,
-				366EC3AD133313970016BB1B /* UKFileWatcher.m */,
-				366EC3AE133313970016BB1B /* UKFNSubscribeFileWatcher.h */,
-				366EC3AF133313970016BB1B /* UKFNSubscribeFileWatcher.m */,
-				366EC3B0133313970016BB1B /* UKKQueue Readme.txt */,
-				366EC3B1133313970016BB1B /* UKKQueue.h */,
-				366EC3B2133313970016BB1B /* UKKQueue.m */,
-				366EC3B3133313970016BB1B /* UKMainThreadProxy.h */,
-				366EC3B4133313970016BB1B /* UKMainThreadProxy.m */,
-			);
-			path = UKKQueue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,8 +200,6 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				366EC3B7133313970016BB1B /* UKKQueue Readme.txt in Resources */,
-				363DCBCB13A12D840039487F /* lx200.py in Resources */,
 				3657D2CA13DEFBE700BF5927 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,16 +215,6 @@
 				256AC3DA0F4B6AC300CF3369 /* GeoAppDelegate.m in Sources */,
 				364597F413229816003BD84D /* SphericalPoint.m in Sources */,
 				36DC97811322ABA0006ECE35 /* GeoMath.m in Sources */,
-				362F152E132308C9005144CE /* ShowAngle.m in Sources */,
-				362F155613230F2A005144CE /* ShowHeading.m in Sources */,
-				36170F0613317D4E00E1FADB /* ReceiverThread.m in Sources */,
-				366EC3B5133313970016BB1B /* UKFileWatcher.m in Sources */,
-				366EC3B6133313970016BB1B /* UKFNSubscribeFileWatcher.m in Sources */,
-				366EC3B8133313970016BB1B /* UKKQueue.m in Sources */,
-				366EC3B9133313970016BB1B /* UKMainThreadProxy.m in Sources */,
-				3641642613343B8F002C541B /* FileChooser.m in Sources */,
-				364FF0CD139D471A005B3784 /* TelescopeController.m in Sources */,
-				363DCBCA13A12D840039487F /* TSCoords.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
