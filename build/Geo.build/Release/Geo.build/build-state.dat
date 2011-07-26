@@ -1,0 +1,1696 @@
+TGeo
+v7
+r0
+t329414168.182684
+cCheck dependencies
+cProcessInfoPlistFile /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Info.plist Geo-Info.plist
+cCopyStringsFile /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/sheyne/Dropbox/Dev/Geo/English.lproj/MainMenu.xib
+cCpResource "build/Release/Geo.app/Contents/Resources/UKKQueue Readme.txt" "UKKQueue/UKKQueue Readme.txt"
+cCpResource build/Release/Geo.app/Contents/Resources/getCoords.pl getCoords.pl
+cCpResource build/Release/Geo.app/Contents/Resources/lx200.py lx200.py
+cCpResource build/Release/Geo.app/Contents/Resources/seriallogger.py seriallogger.py
+cCpResource build/Release/Geo.app/Contents/Resources/fakelogger.py fakelogger.py
+cCpResource build/Release/Geo.app/Contents/Resources/fakelogger(Raw_).py fakelogger(Raw_).py
+cProcessPCH /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch.gch Geo_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch.gch Geo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch.gch Geo_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/main.o /Users/sheyne/Dropbox/Dev/Geo/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/GeoAppDelegate.o /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/SphericalPoint.o /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/GeoMath.o /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/ShowAngle.o /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/ShowHeading.o /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/ReceiverThread.o /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKFileWatcher.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKKQueue.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKMainThreadProxy.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/FileChooser.o /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/TelescopeController.o /Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/TSCoords.o /Users/sheyne/Dropbox/Dev/Geo/TSCoords.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/Geo normal x86_64
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/main.o /Users/sheyne/Dropbox/Dev/Geo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/GeoAppDelegate.o /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/SphericalPoint.o /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/GeoMath.o /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/ShowAngle.o /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/ShowHeading.o /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/ReceiverThread.o /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/UKFileWatcher.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/UKFNSubscribeFileWatcher.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/UKKQueue.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/UKMainThreadProxy.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/FileChooser.o /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/TelescopeController.o /Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/TSCoords.o /Users/sheyne/Dropbox/Dev/Geo/TSCoords.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/Geo normal i386
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/main.o /Users/sheyne/Dropbox/Dev/Geo/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/GeoAppDelegate.o /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/SphericalPoint.o /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/GeoMath.o /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/ShowAngle.o /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/ShowHeading.o /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/ReceiverThread.o /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKFileWatcher.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKFNSubscribeFileWatcher.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKKQueue.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKMainThreadProxy.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/FileChooser.o /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/TelescopeController.o /Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/TSCoords.o /Users/sheyne/Dropbox/Dev/Geo/TSCoords.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/Geo normal ppc
+cCreateUniversalBinary /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/MacOS/Geo normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app.dSYM /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/MacOS/Geo
+cTouch /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004C23BF2D00000000000005FF
+t1277411117
+s1535
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Python.framework/Headers/Python.h
+c000000004C23F49C0000000000001120
+t1277424796
+s4384
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Python.framework/Python
+c000000004CAA740500000000000409EC
+t1286239237
+s264684
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004BBD2CE900000000000003EA
+t1270689001
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/event.h
+c000000004C239946000000000000304A
+t1277401414
+s12362
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004C2399480000000000002905
+t1277401416
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004BBD2CE9000000000000563E
+t1270689001
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libfap.5.0.0.dylib
+c000000004DF238F20000000000013148
+t1307719922
+s78152
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libfap.dylib
+c000000004DF238F20000000000013148
+t1307719922
+s78152
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/sheyne/Dropbox/Dev/Geo/../TestTelescopeController/TSCoords.h
+c000000004DF0EFC700000000000001DE
+t1307635655
+s478
+i<Foundation/Foundation.h>
+
+N/Users/sheyne/Dropbox/Dev/Geo/../TestTelescopeController/TSCoords.m
+c000000004DF0F1CF0000000000000221
+t1307636175
+s545
+i"TSCoords.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/../TestTelescopeController/lx200.py
+c000000004DF0F2B200000000000019B6
+t1307636402
+s6582
+
+N/Users/sheyne/Dropbox/Dev/Geo/English.lproj/InfoPlist.strings
+c000000004D72606D000000000000002D
+t1299341421
+s45
+
+N/Users/sheyne/Dropbox/Dev/Geo/English.lproj/MainMenu.xib
+c000000004DF116AE000000000003C116
+t1307645614
+s246038
+
+N/Users/sheyne/Dropbox/Dev/Geo/FileChooser.h
+c000000004CF7337D0000000000000109
+t1291268989
+s265
+i<Cocoa/Cocoa.h>
+
+N/Users/sheyne/Dropbox/Dev/Geo/FileChooser.m
+c000000004CF733860000000000000245
+t1291268998
+s581
+i"FileChooser.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.h
+c000000004DF1066600000000000007B7
+t1307641446
+s1975
+i<Cocoa/Cocoa.h>
+i"ShowAngle.h"
+i"ShowHeading.h"
+i"ReceiverThread.h"
+i"UKKQueue.h"
+i"FileChooser.h"
+i"TelescopeController.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m
+c000000004DF23BF70000000000001593
+t1307720695
+s5523
+i"SphericalPoint.h"
+i"GeoAppDelegate.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/GeoMath.h
+c000000004D72742B000000000000013E
+t1299346475
+s318
+
+N/Users/sheyne/Dropbox/Dev/Geo/GeoMath.m
+c000000004D8A230200000000000001EF
+t1300898562
+s495
+i"GeoMath.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch
+c000000004D72606D0000000000000089
+t1299341421
+s137
+i<Cocoa/Cocoa.h>
+
+N/Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.h
+c000000004D8142D4000000000000018F
+t1300316884
+s399
+i<Cocoa/Cocoa.h>
+
+N/Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m
+c000000004D8400FE00000000000003A2
+t1300496638
+s930
+i"ReceiverThread.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/ShowAngle.h
+c000000004D72D78300000000000000EF
+t1299371907
+s239
+i<Cocoa/Cocoa.h>
+
+N/Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m
+c000000004D84010000000000000002F8
+t1300496640
+s760
+i"ShowAngle.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/ShowHeading.h
+c000000004D72D7CF00000000000000F7
+t1299371983
+s247
+i<Cocoa/Cocoa.h>
+
+N/Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m
+c000000004D83E4AF0000000000000421
+t1300489391
+s1057
+i"ShowHeading.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.h
+c000000004D86721D0000000000000450
+t1300656669
+s1104
+i<Cocoa/Cocoa.h>
+
+N/Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m
+c000000004DF23C330000000000000882
+t1307720755
+s2178
+i"GeoMath.h"
+i"SphericalPoint.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/TSCoords.h
+c000000004DF0EFC700000000000001DE
+t1307635655
+s478
+i<Foundation/Foundation.h>
+
+N/Users/sheyne/Dropbox/Dev/Geo/TSCoords.m
+c000000004DF0F1CF0000000000000221
+t1307636175
+s545
+i"TSCoords.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/TelescopeController.h
+c000000004DF106E800000000000001FD
+t1307641576
+s509
+i<Foundation/Foundation.h>
+i<Python/Python.h>
+i"TSCoords.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m
+c000000004DF108790000000000000902
+t1307641977
+s2306
+i"TelescopeController.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.h
+c000000004414B11D00000000000006B2
+t1142206749
+s1714
+i<Cocoa/Cocoa.h>
+i"UKFileWatcher.h"
+i<Carbon/Carbon.h>
+
+N/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m
+c000000004414B23D0000000000001A29
+t1142207037
+s6697
+i"UKFNSubscribeFileWatcher.h"
+i<Carbon/Carbon.h>
+
+N/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.h
+c000000004414AEAB0000000000000890
+t1142206123
+s2192
+
+N/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m
+c000000004414AEBB000000000000065C
+t1142206139
+s1628
+i<Cocoa/Cocoa.h>
+i"UKFileWatcher.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue Readme.txt
+c000000004414B3D10000000000000780
+t1142207441
+s1920
+
+N/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.h
+c000000004D82D37100000000000014D6
+t1300419441
+s5334
+i<Foundation/Foundation.h>
+i<sys/types.h>
+i<sys/event.h>
+i"UKFileWatcher.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m
+c000000004DF23CC00000000000003A3B
+t1307720896
+s14907
+i"UKKQueue.h"
+i"UKMainThreadProxy.h"
+i<unistd.h>
+i<fcntl.h>
+
+N/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.h
+c000000004414B1FA000000000000069F
+t1142206970
+s1695
+i<Cocoa/Cocoa.h>
+
+N/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m
+c000000004414B1E80000000000000F4D
+t1142206952
+s3917
+i"UKMainThreadProxy.h"
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/FileChooser.o
+t1300497814
+s16504
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/Geo
+t1307720897
+s65048
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/Geo.LinkFileList
+c000000004DF0F64C000000000000056F
+t1307637324
+s1391
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/GeoAppDelegate.o
+t1307720698
+s52188
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/GeoMath.o
+t1300906147
+s6152
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/ReceiverThread.o
+t1300496646
+s10568
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/ShowAngle.o
+t1300496646
+s15456
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/ShowHeading.o
+t1300489393
+s16836
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/SphericalPoint.o
+t1307720756
+s16956
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/TSCoords.o
+t1307637330
+s8188
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/TelescopeController.o
+t1307642011
+s19304
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/UKFNSubscribeFileWatcher.o
+t1300427895
+s15896
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/UKFileWatcher.o
+t1300427894
+s6636
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/UKKQueue.o
+t1307720897
+s24424
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/UKMainThreadProxy.o
+t1300427895
+s13460
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/main.o
+t1300895578
+s4824
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/FileChooser.o
+t1300497814
+s16680
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/Geo
+t1307720897
+s63988
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/Geo.LinkFileList
+c000000004DF0F64C0000000000000561
+t1307637324
+s1377
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/GeoAppDelegate.o
+t1307720698
+s52892
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/GeoMath.o
+t1300906154
+s6516
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/ReceiverThread.o
+t1300496647
+s10984
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/ShowAngle.o
+t1300496647
+s15904
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/ShowHeading.o
+t1300489393
+s17600
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/SphericalPoint.o
+t1307720756
+s16116
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/TSCoords.o
+t1307637335
+s8196
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/TelescopeController.o
+t1307642011
+s20024
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKFNSubscribeFileWatcher.o
+t1300427896
+s16880
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKFileWatcher.o
+t1300427896
+s6700
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKKQueue.o
+t1307720897
+s26492
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKMainThreadProxy.o
+t1300427896
+s14108
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/main.o
+t1300895585
+s4856
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/FileChooser.o
+t1300497814
+s18588
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/Geo
+t1307720897
+s87808
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/Geo.LinkFileList
+c000000004DF0F64C000000000000058B
+t1307637324
+s1419
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/GeoAppDelegate.o
+t1307720696
+s75832
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/GeoMath.o
+t1300906149
+s7720
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/ReceiverThread.o
+t1300496646
+s15512
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/ShowAngle.o
+t1300496646
+s18080
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/ShowHeading.o
+t1300489393
+s19636
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/SphericalPoint.o
+t1307720756
+s24324
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/TSCoords.o
+t1307637330
+s11260
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/TelescopeController.o
+t1307642011
+s23364
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.o
+t1300427894
+s21996
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKFileWatcher.o
+t1300427893
+s6916
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKKQueue.o
+t1307720897
+s35016
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKMainThreadProxy.o
+t1300427894
+s19048
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/main.o
+t1300895572
+s5024
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/FileChooser.plist
+t1300906205
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/GeoAppDelegate.plist
+t1300911254
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/GeoMath.plist
+t1300906204
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/ReceiverThread.plist
+t1300906204
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/ShowAngle.plist
+t1300906204
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/ShowHeading.plist
+t1300906204
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/SphericalPoint.plist
+t1300906209
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/UKFNSubscribeFileWatcher.plist
+t1300906205
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/UKFileWatcher.plist
+t1300906204
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/UKKQueue.plist
+t1300906205
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/UKMainThreadProxy.plist
+t1300906205
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/main.plist
+t1300906204
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/x86_64/FileChooser.plist
+t1300906204
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/x86_64/GeoAppDelegate.plist
+t1300911254
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/x86_64/GeoMath.plist
+t1300906203
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/x86_64/ReceiverThread.plist
+t1300906203
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/x86_64/ShowAngle.plist
+t1300906203
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/x86_64/ShowHeading.plist
+t1300906203
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/x86_64/SphericalPoint.plist
+t1300906209
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/x86_64/UKFNSubscribeFileWatcher.plist
+t1300906204
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/x86_64/UKFileWatcher.plist
+t1300906203
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/x86_64/UKKQueue.plist
+t1300906204
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/x86_64/UKMainThreadProxy.plist
+t1300906203
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/x86_64/main.plist
+t1300906203
+s276
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app
+t1307720897
+s102
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app.dSYM
+t1307720897
+s102
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Info.plist
+t1300895569
+s874
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/MacOS/Geo
+t1307720897
+s223732
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/PkgInfo
+t1300895569
+s8
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1300895569
+s92
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/English.lproj/MainMenu.nib
+t1307645618
+s46554
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/UKKQueue Readme.txt
+t1300895569
+s1920
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/fakelogger(Raw_)
+t2
+s0
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/fakelogger(Raw_).py
+t1307718986
+s689
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/fakelogger.py
+t1307717569
+s890
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/getCoords.pl
+t1307719452
+s1004
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/lx200.py
+t1307637324
+s6582
+
+N/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/seriallogger.py
+t1307647938
+s1040
+
+N/Users/sheyne/Dropbox/Dev/Geo/fakelogger(Raw_)
+c000000004DF233430000000000000000
+t1307718467
+s0
+
+N/Users/sheyne/Dropbox/Dev/Geo/fakelogger(Raw_).py
+c000000004DF2339100000000000002B1
+t1307718545
+s689
+
+N/Users/sheyne/Dropbox/Dev/Geo/fakelogger.py
+c000000004DF22F8E000000000000037A
+t1307717518
+s890
+
+N/Users/sheyne/Dropbox/Dev/Geo/getCoords.pl
+c000000004DF236B200000000000003EC
+t1307719346
+s1004
+
+N/Users/sheyne/Dropbox/Dev/Geo/lx200.py
+c000000004DF0F2B200000000000019B6
+t1307636402
+s6582
+
+N/Users/sheyne/Dropbox/Dev/Geo/main.m
+c000000004D72606D00000000000000FB
+t1299341421
+s251
+i<Cocoa/Cocoa.h>
+
+N/Users/sheyne/Dropbox/Dev/Geo/seriallogger.py
+c000000004DF11D7B0000000000000410
+t1307647355
+s1040
+
+N/Users/sheyne/Dropbox/Dev/TestTelescopeController/TSCoords.h
+c000000004DF0EFC700000000000001DE
+t1307635655
+s478
+i<Foundation/Foundation.h>
+
+N/var/folders/8K/8KhepbmKF8Kf286nfBS17E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch.gch
+t1299547270
+s55559984
+
+N/var/folders/8K/8KhepbmKF8Kf286nfBS17E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch.gch
+t1299547270
+s52922128
+
+N/var/folders/8K/8KhepbmKF8Kf286nfBS17E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch.gch
+t1299547274
+s52794960
+
+N/var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch.pth
+t1300465973
+s9816312
+
+N/var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch.gch
+t1299349684
+s55592752
+
+N/var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch.gch
+t1299349683
+s52958992
+
+N/var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch.gch
+t1299349684
+s52823632
+
+N/var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cgayxyzwwotsdfgcnotvlussiypp/Geo_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-epfrzeezzbmwcqaoftxfxnhmsesc/Geo_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-fjgbsxjmstewhudxuesmclzjphqm/Geo_Prefix.pch.pth
+t1300465973
+s9005388
+
+N/var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-gzgfiuueozhamzhbogrqkpkrstsl/Geo_Prefix.pch.gch
+t2
+s0
+
+NGeo-Info.plist
+c000000004D72606D00000000000003EA
+t1299341421
+s1002
+
+CAnalyze /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m
+s322599004.931791
+e322599005.147772
+r1
+xAnalyze
+x/Users/sheyne/Dropbox/Dev/Geo/FileChooser.m
+lSLF07#2@51"Analyze /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m322599004#322599005#0(0"0(0#0#43"/Users/sheyne/Dropbox/Dev/Geo/FileChooser.m8605414912#1369"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch --analyze /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/FileChooser.plist0#
+
+CAnalyze /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m
+s322604054.162090
+e322604054.519455
+r1
+xAnalyze
+x/Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m
+lSLF07#2@54"Analyze /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m322604054#322604054#0(0"0(0#0#46"/Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m8623562656#1375"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch --analyze /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/GeoAppDelegate.plist0#
+
+CAnalyze /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m
+s322599004.431318
+e322599004.653887
+r1
+xAnalyze
+x/Users/sheyne/Dropbox/Dev/Geo/GeoMath.m
+lSLF07#2@47"Analyze /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m322599004#322599004#0(0"0(0#0#39"/Users/sheyne/Dropbox/Dev/Geo/GeoMath.m8608242688#1361"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch --analyze /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/GeoMath.plist0#
+
+CAnalyze /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m
+s322599004.654016
+e322599004.910285
+r1
+xAnalyze
+x/Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m
+lSLF07#2@54"Analyze /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m322599004#322599004#0(0"0(0#0#46"/Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m8608410880#1375"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch --analyze /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/ReceiverThread.plist0#
+
+CAnalyze /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m
+s322599004.488671
+e322599004.719187
+r1
+xAnalyze
+x/Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m
+lSLF07#2@49"Analyze /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m322599004#322599004#0(0"0(0#0#41"/Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m8607973088#1365"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch --analyze /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/ShowAngle.plist0#
+
+CAnalyze /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m
+s322599004.582718
+e322599004.838294
+r1
+xAnalyze
+x/Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m
+lSLF07#2@51"Analyze /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m322599004#322599004#0(0"0(0#0#43"/Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m8610165472#1369"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch --analyze /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/ShowHeading.plist0#
+
+CAnalyze /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m
+s322599009.043382
+e322599009.270171
+r1
+xAnalyze
+x/Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m
+lSLF07#2@54"Analyze /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m322599009#322599009#0(0"0(0#0#46"/Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m8603853696#1375"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch --analyze /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/SphericalPoint.plist0#
+
+CAnalyze /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m
+s322599004.838425
+e322599005.400296
+r1
+xAnalyze
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m
+lSLF07#2@73"Analyze /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m322599004#322599005#0(0"0(0#0#65"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m8609906560#1404"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch --analyze /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/UKFNSubscribeFileWatcher.plist0#
+
+CAnalyze /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m
+s322599004.719314
+e322599004.931665
+r1
+xAnalyze
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m
+lSLF07#2@62"Analyze /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m322599004#322599004#0(0"0(0#0#54"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m8605622976#1382"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch --analyze /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/UKFileWatcher.plist0#
+
+CAnalyze /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m
+s322599004.862623
+e322599005.149444
+r1
+xAnalyze
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m
+lSLF07#2@57"Analyze /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m322599004#322599005#0(0"0(0#0#49"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m8606868672#1372"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch --analyze /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/UKKQueue.plist0#
+
+CAnalyze /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m
+s322599004.910407
+e322599005.148765
+r1
+xAnalyze
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m
+lSLF07#2@66"Analyze /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m322599004#322599005#0(0"0(0#0#58"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m8604428480#1390"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch --analyze /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/UKMainThreadProxy.plist0#
+
+CAnalyze /Users/sheyne/Dropbox/Dev/Geo/main.m
+s322599003.933327
+e322599004.431097
+r1
+xAnalyze
+x/Users/sheyne/Dropbox/Dev/Geo/main.m
+lSLF07#2@44"Analyze /Users/sheyne/Dropbox/Dev/Geo/main.m322599003#322599004#0(0"0(0#0#36"/Users/sheyne/Dropbox/Dev/Geo/main.m8606929600#1355"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch --analyze /Users/sheyne/Dropbox/Dev/Geo/main.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/StaticAnalyzer/normal/i386/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies329414168#329414168#0(0"0(0#1#0"8609680224#0"0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/FileChooser.o /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322190614.283746
+e322190614.650579
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/FileChooser.o
+x/Users/sheyne/Dropbox/Dev/Geo/FileChooser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m322190614#322190614#0(0"0(0#0#43"/Users/sheyne/Dropbox/Dev/Geo/FileChooser.m8614012064#1315"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/FileChooser.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/GeoAppDelegate.o /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329413496.415535
+e329413498.084870
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/GeoAppDelegate.o
+x/Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m329413496#329413498#0(0"0(0#0#46"/Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m8609138912#1321"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/GeoAppDelegate.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/GeoMath.o /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322598938.238349
+e322598947.472301
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/GeoMath.o
+x/Users/sheyne/Dropbox/Dev/Geo/GeoMath.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m322598938#322598947#0(0"0(0#0#39"/Users/sheyne/Dropbox/Dev/Geo/GeoMath.m8602323040#1307"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/GeoMath.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/ReceiverThread.o /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322189446.550440
+e322189446.872323
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/ReceiverThread.o
+x/Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m322189446#322189446#0(0"0(0#0#46"/Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m8616344832#1321"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/ReceiverThread.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/ShowAngle.o /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322189446.400638
+e322189446.763974
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/ShowAngle.o
+x/Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m322189446#322189446#0(0"0(0#0#41"/Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m8617242752#1311"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/ShowAngle.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/ShowHeading.o /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322182192.842836
+e322182193.149002
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/ShowHeading.o
+x/Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m322182192#322182193#0(0"0(0#0#43"/Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m8612141536#1315"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/ShowHeading.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/SphericalPoint.o /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329413555.769782
+e329413556.083476
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/SphericalPoint.o
+x/Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m329413555#329413556#0(0"0(0#0#46"/Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m8608903296#1321"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/SphericalPoint.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/TSCoords.o /Users/sheyne/Dropbox/Dev/Geo/../TestTelescopeController/TSCoords.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/TSCoords.o /Users/sheyne/Dropbox/Dev/Geo/TSCoords.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329330124.885406
+e329330130.503565
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/TSCoords.o
+x/Users/sheyne/Dropbox/Dev/Geo/TSCoords.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/sheyne/Dropbox/Dev/Geo/TSCoords.m329330124#329330130#0(0"0(0#0#40"/Users/sheyne/Dropbox/Dev/Geo/TSCoords.m8614537472#1309"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/TSCoords.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/TSCoords.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/TelescopeController.o /Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329334810.932565
+e329334811.330189
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/TelescopeController.o
+x/Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m329334810#329334811#0(0"0(0#0#51"/Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m8627912928#1331"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/TelescopeController.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/UKFNSubscribeFileWatcher.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322120694.842997
+e322120695.687316
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/UKFNSubscribeFileWatcher.o
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m322120694#322120695#0(0"0(0#0#65"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m8603919968#1350"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/UKFNSubscribeFileWatcher.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/UKFileWatcher.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322120694.731889
+e322120694.961941
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/UKFileWatcher.o
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m322120694#322120694#0(0"0(0#0#54"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m8613190112#1328"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/UKFileWatcher.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/UKKQueue.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329413697.099243
+e329413697.487562
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/UKKQueue.o
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m329413697#329413697#0(0"0(0#0#49"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m8607441120#1318"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/UKKQueue.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/UKMainThreadProxy.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322120695.019863
+e322120695.438407
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/UKMainThreadProxy.o
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m322120695#322120695#0(0"0(0#0#58"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m8615010400#1336"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/UKMainThreadProxy.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/i386/main.o /Users/sheyne/Dropbox/Dev/Geo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322588372.707697
+e322588378.012389
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/i386/main.o
+x/Users/sheyne/Dropbox/Dev/Geo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/sheyne/Dropbox/Dev/Geo/main.m322588372#322588378#0(0"0(0#0#36"/Users/sheyne/Dropbox/Dev/Geo/main.m3395836364248932864#1301"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/main.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/FileChooser.o /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s322190614.652589
+e322190614.973920
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/FileChooser.o
+x/Users/sheyne/Dropbox/Dev/Geo/FileChooser.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m322190614#322190614#0(0"0(0#0#43"/Users/sheyne/Dropbox/Dev/Geo/FileChooser.m8616390336#1322"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/FileChooser.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/GeoAppDelegate.o /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s329413496.418335
+e329413498.279225
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/GeoAppDelegate.o
+x/Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m329413496#329413498#0(0"0(0#0#46"/Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m8608467488#1328"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/GeoAppDelegate.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/GeoMath.o /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s322598949.721819
+e322598954.942413
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/GeoMath.o
+x/Users/sheyne/Dropbox/Dev/Geo/GeoMath.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m322598949#322598955#0(0"0(0#0#39"/Users/sheyne/Dropbox/Dev/Geo/GeoMath.m8601559008#1314"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/GeoMath.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/ReceiverThread.o /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s322189446.872737
+e322189447.131457
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/ReceiverThread.o
+x/Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m322189446#322189447#0(0"0(0#0#46"/Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m8617908064#1328"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/ReceiverThread.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/ShowAngle.o /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s322189446.832588
+e322189447.116930
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/ShowAngle.o
+x/Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m322189446#322189447#0(0"0(0#0#41"/Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m8618466976#1318"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/ShowAngle.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/ShowHeading.o /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s322182192.845388
+e322182193.137916
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/ShowHeading.o
+x/Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m322182192#322182193#0(0"0(0#0#43"/Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m8617322432#1322"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/ShowHeading.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/SphericalPoint.o /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s329413555.772405
+e329413556.083779
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/SphericalPoint.o
+x/Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m329413555#329413556#0(0"0(0#0#46"/Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m8607985248#1328"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/SphericalPoint.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/TSCoords.o /Users/sheyne/Dropbox/Dev/Geo/../TestTelescopeController/TSCoords.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/TSCoords.o /Users/sheyne/Dropbox/Dev/Geo/TSCoords.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s329330130.727208
+e329330135.534755
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/TSCoords.o
+x/Users/sheyne/Dropbox/Dev/Geo/TSCoords.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/sheyne/Dropbox/Dev/Geo/TSCoords.m329330130#329330135#0(0"0(0#0#40"/Users/sheyne/Dropbox/Dev/Geo/TSCoords.m8615746176#1316"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/TSCoords.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/TSCoords.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/TelescopeController.o /Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s329334811.338977
+e329334811.716524
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/TelescopeController.o
+x/Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m329334811#329334811#0(0"0(0#0#51"/Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m8617934848#1338"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/TelescopeController.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKFNSubscribeFileWatcher.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s322120696.050121
+e322120696.747639
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/UKFNSubscribeFileWatcher.o
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m322120696#322120696#0(0"0(0#0#65"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m8599271264#1357"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKFNSubscribeFileWatcher.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKFileWatcher.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s322120695.917423
+e322120696.120897
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/UKFileWatcher.o
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m322120695#322120696#0(0"0(0#0#54"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m8618207456#1335"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKFileWatcher.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKKQueue.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s329413697.102307
+e329413697.510864
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/UKKQueue.o
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m329413697#329413697#0(0"0(0#0#49"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m8606089728#1325"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKKQueue.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKMainThreadProxy.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s322120696.176140
+e322120696.471405
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/UKMainThreadProxy.o
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m322120696#322120696#0(0"0(0#0#58"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m8599737664#1343"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/UKMainThreadProxy.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/ppc/main.o /Users/sheyne/Dropbox/Dev/Geo/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s322588378.013564
+e322588385.483307
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/ppc/main.o
+x/Users/sheyne/Dropbox/Dev/Geo/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/sheyne/Dropbox/Dev/Geo/main.m322588378#322588385#0(0"0(0#0#36"/Users/sheyne/Dropbox/Dev/Geo/main.m8604711488#1308"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/main.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/FileChooser.o /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322190614.279676
+e322190614.551563
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/FileChooser.o
+x/Users/sheyne/Dropbox/Dev/Geo/FileChooser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m322190614#322190614#0(0"0(0#0#43"/Users/sheyne/Dropbox/Dev/Geo/FileChooser.m8617661184#1321"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/FileChooser.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/FileChooser.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/GeoAppDelegate.o /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s329413496.234748
+e329413496.963338
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/GeoAppDelegate.o
+x/Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m329413496#329413496#0(0"0(0#0#46"/Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m8607186400#1327"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/GeoAppDelegate.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/GeoAppDelegate.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/GeoMath.o /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322598938.234315
+e322598949.721557
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/GeoMath.o
+x/Users/sheyne/Dropbox/Dev/Geo/GeoMath.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m322598938#322598949#0(0"0(0#0#39"/Users/sheyne/Dropbox/Dev/Geo/GeoMath.m8603802944#1313"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/GeoMath.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/GeoMath.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/ReceiverThread.o /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322189446.082658
+e322189446.755563
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/ReceiverThread.o
+x/Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m322189446#322189446#0(0"0(0#0#46"/Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m8617682912#1327"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/ReceiverThread.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/ReceiverThread.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/ShowAngle.o /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322189445.799596
+e322189446.400205
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/ShowAngle.o
+x/Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m322189445#322189446#0(0"0(0#0#41"/Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m8617884448#1317"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/ShowAngle.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/ShowAngle.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/ShowHeading.o /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322182192.634359
+e322182193.100643
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/ShowHeading.o
+x/Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m322182192#322182193#0(0"0(0#0#43"/Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m8615050048#1321"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/ShowHeading.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/ShowHeading.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/SphericalPoint.o /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s329413555.606854
+e329413556.085766
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/SphericalPoint.o
+x/Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m329413555#329413556#0(0"0(0#0#46"/Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m8608571936#1327"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/SphericalPoint.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/SphericalPoint.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/TSCoords.o /Users/sheyne/Dropbox/Dev/Geo/../TestTelescopeController/TSCoords.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/TSCoords.o /Users/sheyne/Dropbox/Dev/Geo/TSCoords.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s329330124.881098
+e329330130.727047
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/TSCoords.o
+x/Users/sheyne/Dropbox/Dev/Geo/TSCoords.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/sheyne/Dropbox/Dev/Geo/TSCoords.m329330124#329330130#0(0"0(0#0#40"/Users/sheyne/Dropbox/Dev/Geo/TSCoords.m8619192096#1315"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/TSCoords.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/TSCoords.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/TelescopeController.o /Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s329334810.928178
+e329334811.296319
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/TelescopeController.o
+x/Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m329334810#329334811#0(0"0(0#0#51"/Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m8632371616#1337"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/TelescopeController.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/TelescopeController.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322120693.674821
+e322120694.536063
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.o
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m322120693#322120694#0(0"0(0#0#65"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m8618387232#1356"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFNSubscribeFileWatcher.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKFNSubscribeFileWatcher.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKFileWatcher.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322120693.509444
+e322120693.783122
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKFileWatcher.o
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m322120693#322120693#0(0"0(0#0#54"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m8616056800#1334"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKFileWatcher.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKFileWatcher.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKKQueue.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s329413696.922831
+e329413697.492248
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKKQueue.o
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m: In function '-[UKKQueue removePathFromQueue:]':
+o/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m:279: warning: comparison is always false due to limited range of data type
+lSLF07#2@57"Compile /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m329413696#329413697#0(224"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m: In function '-[UKKQueue removePathFromQueue:]':/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m:279: warning: comparison is always false due to limited range of data type1(22@60"Comparison is always false due to limited range of data type329413697#99#125#0(6@49"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m329413696#279#0#279#0#0"0(0#0#49"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m8606824800#1324"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKKQueue.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKMainThreadProxy.o /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322120693.783267
+e322120694.176096
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKMainThreadProxy.o
+x/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m322120693#322120694#0(0"0(0#0#58"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m8616059616#1342"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKMainThreadProxy.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/UKMainThreadProxy.o0#
+
+CCompileC build/Geo.build/Release/Geo.build/Objects-normal/x86_64/main.o /Users/sheyne/Dropbox/Dev/Geo/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322588369.739733
+e322588372.706403
+r1
+xCompileC
+xbuild/Geo.build/Release/Geo.build/Objects-normal/x86_64/main.o
+x/Users/sheyne/Dropbox/Dev/Geo/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/sheyne/Dropbox/Dev/Geo/main.m322588369#322588372#0(0"0(0#0#36"/Users/sheyne/Dropbox/Dev/Geo/main.m8605176128#1307"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -include /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch -c /Users/sheyne/Dropbox/Dev/Geo/main.m -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/sheyne/Dropbox/Dev/Geo/English.lproj/MainMenu.xib
+s329338417.972629
+e329338418.432169
+r1
+xCompileXIB
+x/Users/sheyne/Dropbox/Dev/Geo/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib329338417#329338418#0(0"0(0#0#56"/Users/sheyne/Dropbox/Dev/Geo/English.lproj/MainMenu.xib8628887328#335"    cd /Users/sheyne/Dropbox/Dev/Geo    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/English.lproj/MainMenu.nib /Users/sheyne/Dropbox/Dev/Geo/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s322588369.510617
+e322588369.739080
+r1
+xCopyStringsFile
+x/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings322588369#322588369#0(0"0(0#0#61"/Users/sheyne/Dropbox/Dev/Geo/English.lproj/InfoPlist.strings8602398656#345"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources/English.lproj0#
+
+CCpResource "build/Release/Geo.app/Contents/Resources/UKKQueue Readme.txt" "UKKQueue/UKKQueue Readme.txt"
+s322588369.523350
+e322588369.597138
+r1
+xCpResource
+xbuild/Release/Geo.app/Contents/Resources/UKKQueue Readme.txt
+xUKKQueue/UKKQueue Readme.txt
+lSLF07#2@33"Copy UKKQueue/UKKQueue Readme.txt322588369#322588369#0(0"0(0#0#58"/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue Readme.txt8601449216#352"    cd /Users/sheyne/Dropbox/Dev/Geo    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/sheyne/Dropbox/Dev/Geo/UKKQueue/UKKQueue Readme.txt" /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources0#
+
+CCpResource build/Release/Geo.app/Contents/Resources/fakelogger(Raw_) fakelogger(Raw_)
+r0
+
+CCpResource build/Release/Geo.app/Contents/Resources/fakelogger(Raw_).py fakelogger(Raw_).py
+s329411786.504227
+e329411786.511754
+r1
+xCpResource
+xbuild/Release/Geo.app/Contents/Resources/fakelogger(Raw_).py
+xfakelogger(Raw_).py
+lSLF07#2@24"Copy fakelogger(Raw_).py329411786#329411786#0(0"0(0#0#49"/Users/sheyne/Dropbox/Dev/Geo/fakelogger(Raw_).py8634231616#341"    cd /Users/sheyne/Dropbox/Dev/Geo    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/sheyne/Dropbox/Dev/Geo/fakelogger(Raw_).py /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources0#
+
+CCpResource build/Release/Geo.app/Contents/Resources/fakelogger.py fakelogger.py
+s329410369.907427
+e329410369.913687
+r1
+xCpResource
+xbuild/Release/Geo.app/Contents/Resources/fakelogger.py
+xfakelogger.py
+lSLF07#2@18"Copy fakelogger.py329410369#329410369#0(0"0(0#0#43"/Users/sheyne/Dropbox/Dev/Geo/fakelogger.py8627580736#335"    cd /Users/sheyne/Dropbox/Dev/Geo    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/sheyne/Dropbox/Dev/Geo/fakelogger.py /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources0#
+
+CCpResource build/Release/Geo.app/Contents/Resources/getCoords.pl getCoords.pl
+s329412252.036860
+e329412252.105209
+r1
+xCpResource
+xbuild/Release/Geo.app/Contents/Resources/getCoords.pl
+xgetCoords.pl
+lSLF07#2@17"Copy getCoords.pl329412252#329412252#0(0"0(0#0#42"/Users/sheyne/Dropbox/Dev/Geo/getCoords.pl8636372352#334"    cd /Users/sheyne/Dropbox/Dev/Geo    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/sheyne/Dropbox/Dev/Geo/getCoords.pl /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources0#
+
+CCpResource build/Release/Geo.app/Contents/Resources/lx200.py ../TestTelescopeController/lx200.py
+r0
+
+CCpResource build/Release/Geo.app/Contents/Resources/lx200.py lx200.py
+s329330124.871999
+e329330124.877219
+r1
+xCpResource
+xbuild/Release/Geo.app/Contents/Resources/lx200.py
+xlx200.py
+lSLF07#2@13"Copy lx200.py329330124#329330124#0(0"0(0#0#38"/Users/sheyne/Dropbox/Dev/Geo/lx200.py8621231584#330"    cd /Users/sheyne/Dropbox/Dev/Geo    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/sheyne/Dropbox/Dev/Geo/lx200.py /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources0#
+
+CCpResource build/Release/Geo.app/Contents/Resources/seriallogger.py seriallogger.py
+s329340738.607939
+e329340738.633875
+r1
+xCpResource
+xbuild/Release/Geo.app/Contents/Resources/seriallogger.py
+xseriallogger.py
+lSLF07#2@20"Copy seriallogger.py329340738#329340738#0(0"0(0#0#45"/Users/sheyne/Dropbox/Dev/Geo/seriallogger.py23081149961273460#337"    cd /Users/sheyne/Dropbox/Dev/Geo    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/sheyne/Dropbox/Dev/Geo/seriallogger.py /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Resources0#
+
+CCreateUniversalBinary /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/MacOS/Geo normal "x86_64 i386 ppc"
+s329413697.565086
+e329413697.568750
+r1
+xCreateUniversalBinary
+x/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/MacOS/Geo
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@87"CreateUniversalBinary build/Release/Geo.app/Contents/MacOS/Geo normal "x86_64 i386 ppc"329413697#329413697#0(0"0(0#0#45"/Users/sheyne/Dropbox/Dev/Geo/x86_64 i386 ppc8608989216#407"    cd /Users/sheyne/Dropbox/Dev/Geo    /usr/bin/lipo -create /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/Geo /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/Geo /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/Geo -output /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/MacOS/Geo0#
+
+CGenerateDSYMFile /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app.dSYM /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/MacOS/Geo
+s329413697.568841
+e329413697.611020
+r1
+xGenerateDSYMFile
+x/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app.dSYM
+x/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/MacOS/Geo
+lSLF07#2@84"GenerateDSYMFile build/Release/Geo.app.dSYM build/Release/Geo.app/Contents/MacOS/Geo329413697#329413697#0(0"0(0#0#70"/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/MacOS/Geo8607444320#200"    cd /Users/sheyne/Dropbox/Dev/Geo    /Developer/usr/bin/dsymutil /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/MacOS/Geo -o /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app.dSYM0#
+
+CLd /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/Geo normal i386
+s329413697.487682
+e329413697.552157
+r1
+xLd
+x/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/Geo
+xnormal
+xi386
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libfap.5.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+lSLF07#2@92"Link /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/Geo329413697#329413697#0(174"ld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libfap.5.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)1(22@160"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libfap.5.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)329413697#0#174#0(6@0"329413697#0#0#0#0#0"0(0#0#0"8603494304#528"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/sheyne/Dropbox/Dev/Geo/build/Release -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -filelist /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/Geo.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Python -lfap.5.0.0 -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/i386/Geo0#
+
+CLd /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/Geo normal ppc
+s329413697.511126
+e329413697.564962
+r1
+xLd
+x/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/Geo
+xnormal
+xppc
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libfap.5.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (ppc)
+lSLF07#2@91"Link /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/Geo329413697#329413697#0(173"ld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libfap.5.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (ppc)1(22@159"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libfap.5.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (ppc)329413697#0#173#0(6@0"329413697#0#0#0#0#0"0(0#0#0"8598925632#525"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/sheyne/Dropbox/Dev/Geo/build/Release -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -filelist /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/Geo.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Python -lfap.5.0.0 -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/ppc/Geo0#
+
+CLd /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/Geo normal x86_64
+s329413697.492373
+e329413697.552901
+r1
+xLd
+x/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/Geo
+xnormal
+xx86_64
+lSLF07#2@94"Link /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/Geo329413697#329413697#0(0"0(0#0#0"8602921376#534"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/sheyne/Dropbox/Dev/Geo/build/Release -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -filelist /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/Geo.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Python -lfap.5.0.0 -o /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Objects-normal/x86_64/Geo0#
+
+CProcessInfoPlistFile /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Info.plist Geo-Info.plist
+s322588369.474857
+e322588369.510477
+r1
+xProcessInfoPlistFile
+x/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Info.plist
+xGeo-Info.plist
+lSLF07#2@22"Process Geo-Info.plist322588369#322588369#0(0"0(0#0#44"/Users/sheyne/Dropbox/Dev/Geo/Geo-Info.plist30962560973865076#275"    cd /Users/sheyne/Dropbox/Dev/Geo    builtin-infoPlistUtility Geo-Info.plist -genpkginfo /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/8K/8KhepbmKF8Kf286nfBS17E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch.gch Geo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321240057.685932
+e321240071.901393
+r1
+xProcessPCH
+x/var/folders/8K/8KhepbmKF8Kf286nfBS17E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch.gch
+xGeo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile Geo_Prefix.pch321240057#321240071#0(0"0(0#0#44"/Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch8606201184#1220"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -c /Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch -o /var/folders/8K/8KhepbmKF8Kf286nfBS17E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/8K/8KhepbmKF8Kf286nfBS17E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch.gch Geo_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321240057.684196
+e321240070.358810
+r1
+xProcessPCH
+x/var/folders/8K/8KhepbmKF8Kf286nfBS17E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch.gch
+xGeo_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile Geo_Prefix.pch321240057#321240070#0(0"0(0#0#44"/Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch8606410272#1224"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -c /Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch -o /var/folders/8K/8KhepbmKF8Kf286nfBS17E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/8K/8KhepbmKF8Kf286nfBS17E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch.gch Geo_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s321240070.359010
+e321240074.225977
+r1
+xProcessPCH
+x/var/folders/8K/8KhepbmKF8Kf286nfBS17E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch.gch
+xGeo_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile Geo_Prefix.pch321240070#321240074#0(0"0(0#0#44"/Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch8607350208#1228"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -c /Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch -o /var/folders/8K/8KhepbmKF8Kf286nfBS17E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch.pth Geo_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s322158769.803431
+e322158773.450682
+r1
+xProcessPCH
+x/var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch.pth
+xGeo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@25"Precompile Geo_Prefix.pch322158769#322158773#0(0"0(0#0#44"/Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch8607492896#1256"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -c /Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch -o /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-asxltihqnddxmiaztmjfcgqkfvur/Geo_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch.gch Geo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321042477.160787
+e321042484.303297
+r1
+xProcessPCH
+x/var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch.gch
+xGeo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile Geo_Prefix.pch321042477#321042484#0(0"0(0#0#44"/Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch8640044704#1220"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/i386 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -c /Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch -o /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bvepdozfvewmneddbtawbosyzsdv/Geo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch.gch Geo_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321042477.159491
+e321042483.704293
+r1
+xProcessPCH
+x/var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch.gch
+xGeo_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile Geo_Prefix.pch321042477#321042483#0(0"0(0#0#44"/Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch8640214848#1224"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -c /Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch -o /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-bzrioygvhvdmmddzyzwmnqqhucxq/Geo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch.gch Geo_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s321042477.161876
+e321042484.318373
+r1
+xProcessPCH
+x/var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch.gch
+xGeo_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile Geo_Prefix.pch321042477#321042484#0(0"0(0#0#44"/Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch8639843232#1228"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/ppc -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -c /Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch -o /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cebsavmknmxdauegldewbyvwcrav/Geo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-cgayxyzwwotsdfgcnotvlussiypp/Geo_Prefix.pch.gch Geo_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-epfrzeezzbmwcqaoftxfxnhmsesc/Geo_Prefix.pch.gch Geo_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-fjgbsxjmstewhudxuesmclzjphqm/Geo_Prefix.pch.pth Geo_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s322158769.778358
+e322158773.335649
+r1
+xProcessPCH
+x/var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-fjgbsxjmstewhudxuesmclzjphqm/Geo_Prefix.pch.pth
+xGeo_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@25"Precompile Geo_Prefix.pch322158769#322158773#0(0"0(0#0#44"/Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch7238806838080467968#1260"    cd /Users/sheyne/Dropbox/Dev/Geo    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-generated-files.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-own-target-headers.hmap -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-all-target-headers.hmap -iquote /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/Geo-project-headers.hmap -F/Users/sheyne/Dropbox/Dev/Geo/build/Release -I/Users/sheyne/Dropbox/Dev/Geo/build/Release/include -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources/x86_64 -I/Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Release/Geo.build/DerivedSources -c /Users/sheyne/Dropbox/Dev/Geo/Geo_Prefix.pch -o /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-fjgbsxjmstewhudxuesmclzjphqm/Geo_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-gzgfiuueozhamzhbogrqkpkrstsl/Geo_Prefix.pch.gch Geo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app
+s329413697.611124
+e329413697.614842
+r1
+xTouch
+x/Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app
+lSLF07#2@57"Touch /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app329413697#329413697#0(0"0(0#0#0"8606902048#111"    cd /Users/sheyne/Dropbox/Dev/Geo    /usr/bin/touch -c /Users/sheyne/Dropbox/Dev/Geo/build/Release/Geo.app0#
+

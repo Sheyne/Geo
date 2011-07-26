@@ -1,0 +1,27 @@
+ad3f0333fb644207f311c265fa825d71 f2ef9679f83568db2ec01d1532efcf6b ffffffffffffffffffffffffffffffff 102 /Users/sheyne/Dropbox/Dev/Geo/build/Debug/Geo.app
+272bf0061705bde6b5a1d68f98280397 84b607345dfce811e433541679161d48 ffffffffffffffffffffffffffffffff 69548 /Users/sheyne/Dropbox/Dev/Geo/build/Debug/Geo.app/Contents/MacOS/Geo
+00000000000000000000000000000000 222d7cde816346ebfa0b9b9aabf241ff ffffffffffffffffffffffffffffffff 689 /Users/sheyne/Dropbox/Dev/Geo/build/Debug/Geo.app/Contents/Resources/fakelogger(Raw_).py
+00000000000000000000000000000000 7d194456d434984871039224403eb96e ffffffffffffffffffffffffffffffff 890 /Users/sheyne/Dropbox/Dev/Geo/build/Debug/Geo.app/Contents/Resources/fakelogger.py
+00000000000000000000000000000000 7fc8cc2712ee0102dbea7ee1919e196e ffffffffffffffffffffffffffffffff 1040 /Users/sheyne/Dropbox/Dev/Geo/build/Debug/Geo.app/Contents/Resources/seriallogger.py
+00000000000000000000000000000000 9d5f3465b7cf05b611c8ca598876fbb5 ffffffffffffffffffffffffffffffff 6582 /Users/sheyne/Dropbox/Dev/Geo/build/Debug/Geo.app/Contents/Resources/lx200.py
+00000000000000000000000000000000 abd53885999192ba786e8837cf4c14c3 ffffffffffffffffffffffffffffffff 1004 /Users/sheyne/Dropbox/Dev/Geo/build/Debug/Geo.app/Contents/Resources/getCoords.pl
+00000000000000000000000000000000 a04ac23bac11e684ac47ed23cd74acff ffffffffffffffffffffffffffffffff 1920 /Users/sheyne/Dropbox/Dev/Geo/build/Debug/Geo.app/Contents/Resources/UKKQueue Readme.txt
+000000004df116ae000000000003c116 b29c54cb1dc4988cc6283f3e7391afe8 ffffffffffffffffffffffffffffffff 46554 /Users/sheyne/Dropbox/Dev/Geo/build/Debug/Geo.app/Contents/Resources/English.lproj/MainMenu.nib
+b6f30cda21249179c97a451f3ab12047 b665b3076e5299061673595e331cf3e3 ffffffffffffffffffffffffffffffff 8272 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/TSCoords.o
+b6f30cda6cd430bfc97a451f3ab1285f 8eff24b31c71b5b0610957f64aa71404 ffffffffffffffffffffffffffffffff 19704 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/TelescopeController.o
+b6f30cda2dc38fe6c97a451f3ab132f7 88bffc99f44c7c57f15cb2d5d11dce6a ffffffffffffffffffffffffffffffff 16484 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/FileChooser.o
+b6f30cda2dc38f0fc97a451f3ab13869 0497a97909fcd2d0136f7d8dd98c9599 ffffffffffffffffffffffffffffffff 13556 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/UKMainThreadProxy.o
+b6f30cda6190d5f7c97a451f3ab14e24 a3a07ab2a30d1a4e14ca364ef546e236 ffffffffffffffffffffffffffffffff 25408 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/UKKQueue.o
+b6f30cda69d72296c97a451f3ab125b0 bf61be84a5f085af841ff417ed9dc936 ffffffffffffffffffffffffffffffff 16352 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/UKFNSubscribeFileWatcher.o
+b6f30cda2dc38f0dc97a451f3ab13f77 36a9b907de289d6c0c104c9c3ad462f3 ffffffffffffffffffffffffffffffff 6632 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/UKFileWatcher.o
+b6f30cda2dc6cd37c97a451f3ab13396 e10334392dcf1a78a782ee475aa44c74 ffffffffffffffffffffffffffffffff 10968 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/ReceiverThread.o
+b6f30cda2d32bc7dc97a451f3ab1356d 1c495761ea9c21a472fb2db6e182ad04 ffffffffffffffffffffffffffffffff 18508 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/ShowHeading.o
+b6f30cda2d35599ec97a451f3ab133ac 61b8655b727402011a11004b3fcd3e57 ffffffffffffffffffffffffffffffff 16404 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/ShowAngle.o
+b6f30cda6dff725cc97a451f3ab1308f b3abcaea673ba10a644e9e80809e1420 ffffffffffffffffffffffffffffffff 6280 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/GeoMath.o
+b6f30cda60c5b518c97a451f3ab13c57 4bc76f5ac899f64be161baa8469f631a ffffffffffffffffffffffffffffffff 17660 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/SphericalPoint.o
+b6f30cda2863d17fc97a451f3ab12158 ab1ad482e6cb72e1e046be5899cc9dab ffffffffffffffffffffffffffffffff 54752 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/GeoAppDelegate.o
+b6f30cda60b1ef70c97a451f3ab13140 76753852bbbd3c64162cc070102e219e ffffffffffffffffffffffffffffffff 4836 /Users/sheyne/Dropbox/Dev/Geo/build/Geo.build/Debug/Geo.build/Objects-normal/i386/main.o
+000000000db6ca05000000000000016c b6f30cda60b1ef70c97a451f3ab13132 ffffffffffffffffffffffffffffffff 56932144 /var/folders/Zp/ZpZ6g7aYG9eniGlWMNPxhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geo_Prefix-fduaevcysfldfjedhcwiounkivjl/Geo_Prefix.pch.gch
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 92 /Users/sheyne/Dropbox/Dev/Geo/build/Debug/Geo.app/Contents/Resources/English.lproj/InfoPlist.strings
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 8 /Users/sheyne/Dropbox/Dev/Geo/build/Debug/Geo.app/Contents/PkgInfo
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 874 /Users/sheyne/Dropbox/Dev/Geo/build/Debug/Geo.app/Contents/Info.plist
