@@ -19,6 +19,7 @@
 		364597F413229816003BD84D /* SphericalPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 364597F313229816003BD84D /* SphericalPoint.m */; };
 		364FF0CD139D471A005B3784 /* TelescopeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364FF0CC139D471A005B3784 /* TelescopeController.m */; };
 		364FF0D7139D4734005B3784 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364FF0D6139D4734005B3784 /* Python.framework */; };
+		3657D2CA13DEFBE700BF5927 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 3657D2C913DEFBE700BF5927 /* README */; };
 		366EC3B5133313970016BB1B /* UKFileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 366EC3AD133313970016BB1B /* UKFileWatcher.m */; };
 		366EC3B6133313970016BB1B /* UKFNSubscribeFileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 366EC3AF133313970016BB1B /* UKFNSubscribeFileWatcher.m */; };
 		366EC3B7133313970016BB1B /* UKKQueue Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 366EC3B0133313970016BB1B /* UKKQueue Readme.txt */; };
@@ -58,6 +59,7 @@
 		364FF0CB139D471A005B3784 /* TelescopeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelescopeController.h; sourceTree = "<group>"; };
 		364FF0CC139D471A005B3784 /* TelescopeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelescopeController.m; sourceTree = "<group>"; };
 		364FF0D6139D4734005B3784 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
+		3657D2C913DEFBE700BF5927 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		366EC3AC133313970016BB1B /* UKFileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKFileWatcher.h; sourceTree = "<group>"; };
 		366EC3AD133313970016BB1B /* UKFileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKFileWatcher.m; sourceTree = "<group>"; };
 		366EC3AE133313970016BB1B /* UKFNSubscribeFileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKFNSubscribeFileWatcher.h; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		29B97314FDCFA39411CA2CEA /* Geo */ = {
 			isa = PBXGroup;
 			children = (
+				3657D2C913DEFBE700BF5927 /* README */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -287,6 +290,7 @@
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				366EC3B7133313970016BB1B /* UKKQueue Readme.txt in Resources */,
 				363DCBCB13A12D840039487F /* lx200.py in Resources */,
+				3657D2CA13DEFBE700BF5927 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
