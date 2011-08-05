@@ -10,11 +10,11 @@
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* GeoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* GeoAppDelegate.m */; };
 		363FE3F413A27CA2009D461A /* libfap.5.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 363FE3C913A27BBE009D461A /* libfap.5.0.0.dylib */; };
-		364597F413229816003BD84D /* SphericalPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 364597F313229816003BD84D /* SphericalPoint.m */; };
 		364FF0D7139D4734005B3784 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364FF0D6139D4734005B3784 /* Python.framework */; };
 		3657D2CA13DEFBE700BF5927 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 3657D2C913DEFBE700BF5927 /* README */; };
 		36C059ED13DF10B1001949DF /* TCP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C059EC13DF10B1001949DF /* TCP.framework */; };
-		36DC97811322ABA0006ECE35 /* GeoMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DC97801322ABA0006ECE35 /* GeoMath.m */; };
+		36F931EC13EC657C00C7FBC3 /* GeoMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F931E913EC657C00C7FBC3 /* GeoMath.m */; };
+		36F931ED13EC657C00C7FBC3 /* SphericalPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F931EB13EC657C00C7FBC3 /* SphericalPoint.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -32,13 +32,13 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		363FE3C913A27BBE009D461A /* libfap.5.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfap.5.0.0.dylib; path = usr/local/lib/libfap.5.0.0.dylib; sourceTree = SDKROOT; };
-		364597F213229816003BD84D /* SphericalPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphericalPoint.h; sourceTree = "<group>"; };
-		364597F313229816003BD84D /* SphericalPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphericalPoint.m; sourceTree = "<group>"; };
 		364FF0D6139D4734005B3784 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
 		3657D2C913DEFBE700BF5927 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		36C059EC13DF10B1001949DF /* TCP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TCP.framework; path = "../../../Library/Developer/Xcode/DerivedData/TCP-bcleghinkpmcxfbivgyjzxpnaouj/Build/Products/Debug/TCP.framework"; sourceTree = "<group>"; };
-		36DC977F1322ABA0006ECE35 /* GeoMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoMath.h; sourceTree = "<group>"; };
-		36DC97801322ABA0006ECE35 /* GeoMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoMath.m; sourceTree = "<group>"; };
+		36F931E813EC657C00C7FBC3 /* GeoMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoMath.h; sourceTree = "<group>"; };
+		36F931E913EC657C00C7FBC3 /* GeoMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoMath.m; sourceTree = "<group>"; };
+		36F931EA13EC657C00C7FBC3 /* SphericalPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphericalPoint.h; sourceTree = "<group>"; };
+		36F931EB13EC657C00C7FBC3 /* SphericalPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphericalPoint.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Geo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Geo-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Geo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -141,10 +141,10 @@
 		3641642813343BB7002C541B /* Math */ = {
 			isa = PBXGroup;
 			children = (
-				364597F213229816003BD84D /* SphericalPoint.h */,
-				364597F313229816003BD84D /* SphericalPoint.m */,
-				36DC977F1322ABA0006ECE35 /* GeoMath.h */,
-				36DC97801322ABA0006ECE35 /* GeoMath.m */,
+				36F931E813EC657C00C7FBC3 /* GeoMath.h */,
+				36F931E913EC657C00C7FBC3 /* GeoMath.m */,
+				36F931EA13EC657C00C7FBC3 /* SphericalPoint.h */,
+				36F931EB13EC657C00C7FBC3 /* SphericalPoint.m */,
 			);
 			name = Math;
 			sourceTree = "<group>";
@@ -217,8 +217,8 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* GeoAppDelegate.m in Sources */,
-				364597F413229816003BD84D /* SphericalPoint.m in Sources */,
-				36DC97811322ABA0006ECE35 /* GeoMath.m in Sources */,
+				36F931EC13EC657C00C7FBC3 /* GeoMath.m in Sources */,
+				36F931ED13EC657C00C7FBC3 /* SphericalPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

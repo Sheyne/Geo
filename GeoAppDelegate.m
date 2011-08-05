@@ -36,7 +36,6 @@ NSString*updatePositionContext=@"should update position context";
 	[self addObserver:self forKeyPath:@"port"   options:NSKeyValueObservingOptionNew context:reconnectContext];
 	[self addObserver:self forKeyPath:@"server" options:NSKeyValueObservingOptionNew context:reconnectContext];
 	[self addObserver:self forKeyPath:@"selfPoint"    options:NSKeyValueObservingOptionNew context:updatePositionContext];
-	[self addObserver:self forKeyPath:@"targetPoints" options:NSKeyValueObservingOptionNew context:updatePositionContext];
 	self.port=[NSNumber numberWithInt:54730];
 }
 
@@ -45,21 +44,37 @@ NSString*updatePositionContext=@"should update position context";
 		[tcp connectToServer:self.server onPort:self.port.intValue];
 		NSLog(@"the new port is: %@",self.port);		
 	}else if(context==updatePositionContext)
-		if (self.selfPoint&&self.targetPoints.count>0){
-			NSMutableDictionary *send=[NSMutableDictionary dictionaryWithCapacity:self.targetPoints.count];
-			[self.targetPoints enumerateKeysAndObjectsUsingBlock:^(id key, id targetPoint, BOOL *stop) {
-				[self.selfPoint findTarget:targetPoint];
-				double distto, angto, heading;
-				distto=self.selfPoint.distanceBetweenSelfAndTarget;
-				angto=self.selfPoint.angleFromLevelToTarget*180/M_PI;
-				heading=self.selfPoint.headingFromSelfToTarget*180/M_PI;
-				[send setObject:[NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithDouble:distto],@"Distance",
-																		   [NSNumber numberWithDouble:angto], @"AltitudeAngle",
-																		   [NSNumber numberWithDouble:heading], @"Azimuth",nil] forKey:key];
-			}];
-			[tcp send:[send JSONData]];
-			NSLog(@"sending: %@",send);
-		}
+		if (self.selfPoint)
+			if(self.targetPoints.count>0){
+				NSMutableDictionary *send=[NSMutableDictionary dictionaryWithCapacity:self.targetPoints.count];
+				[self.targetPoints enumerateKeysAndObjectsUsingBlock:^(id key, id targetPoint, BOOL *stop) {
+					[self.selfPoint findTarget:targetPoint];
+					double distto, angto, heading;
+					distto=self.selfPoint.distanceBetweenSelfAndTarget;
+					angto=self.selfPoint.angleFromLevelToTarget*180/M_PI;
+					heading=self.selfPoint.headingFromSelfToTarget*180/M_PI;
+					NSMutableDictionary *obj=[NSMutableDictionary dictionaryWithCapacity:3];
+					NSNumber * num;
+					if (!isnan(distto)) {
+						num=[NSNumber numberWithDouble:distto];
+						[obj setObject:num forKey:@"distance"];
+					}
+					if (!isnan(angto)) {
+						num=[NSNumber numberWithDouble:angto];
+						[obj setObject:num forKey:@"altitude angle"];
+					}
+					if (!isnan(heading)){
+						num=[NSNumber numberWithDouble:heading];
+						[obj setObject:num forKey:@"azimuth"];
+					}
+					[send setObject:obj forKey:key];
+				}];
+				NSLog(@"encoding: %@",send);
+				NSData *jsonData;
+				if ((jsonData=[send JSONData])) {
+					[tcp send:jsonData];
+				}
+			}
 }
 
 SphericalPoint *pointForPacket(id packet);
@@ -82,10 +97,11 @@ SphericalPoint *pointForPacket(id packet){
 				self.selfPoint=pnt;
 			}else{
 				[self.targetPoints setObject:pnt forKey:key];
+				[self observeValueForKeyPath:@"targetPoints" ofObject:self.targetPoints change:nil context:updatePositionContext];
 			}
 		}
 		NSLog(@"%@: alt: %@ lat: %@ lon: %@",key, [obj objectForKey:@"altitude"], [obj objectForKey:@"latitude"], [obj objectForKey:@"longitude"]);
-	}];
+		}];
 }
 -(void)connected{
 	NSLog(@"yay");
